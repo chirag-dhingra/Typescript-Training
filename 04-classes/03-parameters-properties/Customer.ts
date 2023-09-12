@@ -20,9 +20,5 @@ class Customer {
     public set lastName(value: string) {
         this._lastName = value;
     }
-
 }
-let myCustomer = new Customer("Milkha", "Singh"); 
-console.log(myCustomer.firstName);
-console.log(myCustomer.lastName); 
 
